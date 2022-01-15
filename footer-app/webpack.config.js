@@ -49,7 +49,7 @@ module.exports = {
       name: "footer_app",
       filename: "remoteEntry.js",
       exposes: {
-        "./TheFooter": "./src/components/TheFooter.vue",
+        "./TheFooter": "./src/components/TheFooter.js",
       },
       shared: require("./package.json").dependencies,
     }),
